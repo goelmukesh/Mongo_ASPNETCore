@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+    web:
+        image: mongo_aspnetcore
+        ports: 
+            - "8081:80"
+        depends_on:
+            - db
+        environment:
+            Mongo_DB: "mongodb://db:27017"
+    db:
+        image: "mongo:3.4-windowsservercore"
+        ports: 
+            - "27017:27017"

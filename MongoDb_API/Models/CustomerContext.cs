@@ -16,7 +16,12 @@ namespace MongoDb_API.Models
 
         public CustomerContext(IConfiguration configuration)
         {
-            client = new MongoClient(configuration.GetSection("MongoDB:ConnectionString").Value);
+            string constr = Environment.GetEnvironmentVariable("Mongo_DB");
+            if (constr == null)
+            {
+                constr = configuration.GetSection("MongoDB:ConnectionString").Value;
+            }
+            client = new MongoClient(constr);
             database = client.GetDatabase(configuration.GetSection("MongoDB:Database").Value);
         }
 

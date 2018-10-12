@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDb_API", "MongoDb_API\MongoDb_API.csproj", "{96110D95-0EF6-400B-A0BA-88C8DC70CBC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MongoDb_API", "MongoDb_API\MongoDb_API.csproj", "{96110D95-0EF6-400B-A0BA-88C8DC70CBC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthServer", "AuthServer\AuthServer.csproj", "{C288609C-F253-4A07-8D9A-DBAA64CDBB46}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{96110D95-0EF6-400B-A0BA-88C8DC70CBC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96110D95-0EF6-400B-A0BA-88C8DC70CBC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96110D95-0EF6-400B-A0BA-88C8DC70CBC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C288609C-F253-4A07-8D9A-DBAA64CDBB46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C288609C-F253-4A07-8D9A-DBAA64CDBB46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C288609C-F253-4A07-8D9A-DBAA64CDBB46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C288609C-F253-4A07-8D9A-DBAA64CDBB46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

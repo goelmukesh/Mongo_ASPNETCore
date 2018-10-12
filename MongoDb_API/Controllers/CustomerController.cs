@@ -5,9 +5,11 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using MongoDb_API.Repository;
 using MongoDb_API.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace MongoDb_API.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     public class CustomerController : Controller
     {
