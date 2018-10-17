@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MongoDb_API", "MongoDb_API\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthServer", "AuthServer\AuthServer.csproj", "{C288609C-F253-4A07-8D9A-DBAA64CDBB46}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIGateway", "APIGateway\APIGateway.csproj", "{B01E4C50-CE5A-4FF2-AEC9-9E76A97924DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C288609C-F253-4A07-8D9A-DBAA64CDBB46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C288609C-F253-4A07-8D9A-DBAA64CDBB46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C288609C-F253-4A07-8D9A-DBAA64CDBB46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B01E4C50-CE5A-4FF2-AEC9-9E76A97924DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B01E4C50-CE5A-4FF2-AEC9-9E76A97924DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B01E4C50-CE5A-4FF2-AEC9-9E76A97924DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B01E4C50-CE5A-4FF2-AEC9-9E76A97924DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
